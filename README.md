@@ -1,0 +1,6 @@
+I this Project "SMART GESTURE CONTROLLED GLOVE FOR WINDOWS 10\11", We have integrated all sensor like accelerometer, gyroscope, magnteometer and gesture sensor on A glove. Basically Aim of this Project was to make user experience
+more appealing and user friendly. Our main goal was to make a device which is fully able to control any Computer or laptop remotely using basic gestures of our hand. This Smart glove is able to handle movement of pointer on desktop
+and basic operations like scrolling,sliding,clicking and switching between any two applications. This Project was an sincere effort to replace traditional device like mouse and make user experience more interactive. We basically used
+Our ESP8266(Node MCU) to integrate all above sensors to achieve these feature. Basic flow of project: Data read by sensors is transfered to esp. After basic computaion process, this processed data is transfered to WINDOWS machine
+via clien-Socket protocol. At Computer end, We created pyauto gui Object which helped us to control overall action and gesture. This output data is then interpolated and processed for smooth and lag free user experience.
+And output of data  can be seen at desktop in no of ways like pointer movement, sliding and scrollling etc.
